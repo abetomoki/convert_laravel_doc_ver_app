@@ -1,0 +1,10 @@
+{
+   "content_scripts": [ {
+      "js": [ "convert_laravel_ver52.js" ],
+      "matches": [ "https://readouble.com/laravel/*" ]
+   } ],
+   "manifest_version": 1,
+   "name": "Auto convert Laravel Document to version 5.2",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
