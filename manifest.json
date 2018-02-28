@@ -1,10 +1,14 @@
 {
    "manifest_version": 2,
-   "version": "0.1",
+   "version": "0.2",
    "content_scripts": [ {
       "js": [ "convert_laravel_ver52.js" ],
       "matches": [ "https://readouble.com/laravel/*" ]
    } ],
    "name": "Laravel 日本語ドキュメント バージョン管理",
-   "update_url": "https://clients2.google.com/service/update2/crx"
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "permissions": [
+       "storage"
+   ],
+   "options_page": "options.html"
 }
